@@ -1,7 +1,9 @@
 output "user_arn" {
   value = module.iam_user_dave.iam_user_arn
 }
-
+output "aws_iam_user_name_" {
+  value = module.iam_user_dave.aws_iam_user_name
+}
 output "access_key_id" {
   value = module.iam_user_dave.access_key_id
 }
