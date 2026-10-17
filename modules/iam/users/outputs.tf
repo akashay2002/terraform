@@ -2,6 +2,9 @@ output "iam_user_arn" {
   value = aws_iam_user.fctp_iam_user.arn
 }
 
+output "aws_iam_user_name" {
+  value = aws_iam_user.fctp_iam_user.name
+}
 output "access_key_id" {
   value = aws_iam_access_key.tf_user_acces_key.id
 }
